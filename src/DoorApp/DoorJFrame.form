@@ -28,24 +28,14 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="goBack" min="-2" max="-2" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                              <Component id="jLabel1" min="-2" pref="68" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                              <Component id="pass" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="68" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="cardNumber" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="add" min="-2" pref="69" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="delete" min="-2" pref="69" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
                               <Component id="record" min="-2" pref="69" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -66,17 +56,13 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="goBack" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="cardNumber" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                  <Component id="pass" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
+              <Component id="cardNumber" min="-2" pref="46" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="showPass" min="-2" pref="34" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="add" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="jLabel1" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                  <Component id="delete" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="record" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="111" max="32767" attributes="0"/>
@@ -106,14 +92,6 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardNumberActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="delete">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="&#x522a;&#x9664;"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JButton" name="goBack">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#x8fd4;&#x56de;&#x767b;&#x5165;&#x9801;&#x9762;"/>
@@ -128,14 +106,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="showPass">
-    </Component>
-    <Component class="javax.swing.JButton" name="pass">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="&#x958b;&#x9580;"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="passActionPerformed"/>
-      </Events>
     </Component>
   </SubComponents>
 </Form>
